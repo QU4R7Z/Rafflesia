@@ -1,2 +1,2 @@
 # Rafflesia
-Rafflesia Engine
+Rafflesia Framework
