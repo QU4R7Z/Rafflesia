@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e63114-0ab5-4b26-aa20-841c138cabec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rafflesia/AudioManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Rafflesia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rafflesia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/play.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/AudioManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/__version__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/AudioManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/AudioManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\Rafflesia" />
       <recent name="D:\Github\Rafflesia\Rafflesia" />
     </key>
   </component>
