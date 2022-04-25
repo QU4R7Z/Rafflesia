@@ -1,12 +1,12 @@
 from Rafflesia.Audio import busy
-from Rafflesia.Audio  import load
-from Rafflesia.Audio  import play
-from Rafflesia.Audio  import pos
-from Rafflesia.Audio  import rewind
-from Rafflesia.Audio  import stop
-from Rafflesia.Audio  import pause
-from Rafflesia.Audio  import unpause
-from Rafflesia.Audio  import volume
+from Rafflesia.Audio import load
+from Rafflesia.Audio import play
+from Rafflesia.Audio import pos
+from Rafflesia.Audio import rewind
+from Rafflesia.Audio import stop
+from Rafflesia.Audio import pause
+from Rafflesia.Audio import unpause
+from Rafflesia.Audio import volume
 import pygame
 
 pygame.mixer.set_num_channels(2048)
@@ -53,5 +53,3 @@ class AudioManager:
 
     def long_set_pos(self, value):
         pos.long_set_pos(value, self.dev)
-
-
