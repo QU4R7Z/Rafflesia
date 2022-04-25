@@ -1,15 +1,33 @@
+from .Audio import load
 from .Audio import play
+from .Audio import stop
+from .Audio import pause
+from .Audio import unpause
 import pygame
-pygame.mixer.set_num_channels(512)
+
+pygame.mixer.set_num_channels(2048)
 
 
 class AudioManager:
-    def __init__(self):
-        self.channelidlist = [0]*512
+    def __init__(self, dev=False):
+        self.channelidlist = []
+        self.dev = dev
         super(AudioManager, self).__init__()
 
     def shortplay(self, filepath, channelname):
-        play.shortplay(filepath, channelname, self.channelidlist)
+        play.shortplay(filepath)
 
-    def longplay(self, filepath):
-        play.longplay(filepath)
+    def longload(self, filepath):
+        load.longload(filepath, self.dev)
+
+    def longplay(self, loops=0, start=0.0, infinityloop=False):
+        play.longplay(loops, start, infinityloop, self.dev)
+
+    def longstop(self):
+        stop.longstop(self.dev)
+
+    def longpause(self):
+        pause.longpause(self.dev)
+
+    def longunpause(self):
+        unpause.longunpause(self.dev)
