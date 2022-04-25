@@ -4,7 +4,7 @@ import pygame
 def long_get_pos(dev):
     try:
         if dev:
-            print(f"Rafflesia Audio / long_get_pos: long pos {pygame.mixer.music.get_pos()}")
+            print(f"Rafflesia Audio / long_get_pos: long pos {pygame.mixer.music.get_pos()}ms")
         return pygame.mixer.music.get_pos()
     except Exception as e:
         print(e)

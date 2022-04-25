@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e63114-0ab5-4b26-aa20-841c138cabec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/pos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/pos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/pos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/volume.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/volume.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/AudioManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/AudioManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

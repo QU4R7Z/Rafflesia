@@ -1,6 +1,7 @@
 import pygame
+
 pygame.init()
 
+__version__ = "0.0.6"
 
-from .__version__ import __version__
 from .AudioManager import *
