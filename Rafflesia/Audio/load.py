@@ -1,7 +1,7 @@
 import pygame
 
 
-def longload(filepath, dev):
+def long_load(filepath, dev):
     try:
         pygame.mixer.music.load(filepath)
         if dev:

@@ -1,7 +1,7 @@
 import pygame
 
 
-def longbusy(dev):
+def long_get_busy(dev):
     try:
         if dev:
             if pygame.mixer.music.get_busy():

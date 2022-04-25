@@ -1,7 +1,7 @@
 import pygame
 
 
-def longunpause(dev):
+def long_unpause(dev):
     try:
         pygame.mixer.music.unpause()
         if dev:

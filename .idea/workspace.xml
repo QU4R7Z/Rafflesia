@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e63114-0ab5-4b26-aa20-841c138cabec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/busy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/rewind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/volume.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/busy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/busy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/load.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/load.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/pause.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/pause.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/play.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/rewind.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/rewind.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/stop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/unpause.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/unpause.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/AudioManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/AudioManager.py" afterDir="false" />
@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Rafflesia/test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Rafflesia/Audio" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">

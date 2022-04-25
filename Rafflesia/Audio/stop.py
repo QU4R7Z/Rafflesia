@@ -1,7 +1,7 @@
 import pygame
 
 
-def longstop(dev):
+def long_stop(dev):
     try:
         pygame.mixer.music.stop()
         if dev:

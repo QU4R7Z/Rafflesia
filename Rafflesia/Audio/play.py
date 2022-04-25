@@ -6,7 +6,7 @@ def shortplay(filepath):
     print(filepath)
 
 
-def longplay(loops, start, infinityloop, dev):
+def long_play(loops, start, infinityloop, dev):
     try:
         if infinityloop:
             pygame.mixer.music.play(-1)

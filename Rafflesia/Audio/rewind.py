@@ -1,7 +1,7 @@
 import pygame
 
 
-def longrewind(dev):
+def long_rewind(dev):
     try:
         pygame.mixer.music.rewind()
         if dev:
