@@ -1,6 +1,7 @@
 from .Audio import busy
 from .Audio import load
 from .Audio import play
+from .Audio import pos
 from .Audio import rewind
 from .Audio import stop
 from .Audio import pause
@@ -43,3 +44,14 @@ class AudioManager:
 
     def long_get_volume(self):
         return volume.long_get_volume(self.dev)
+
+    def long_set_volume(self, value):
+        volume.long_set_volume(value, self.dev)
+
+    def long_get_pos(self):
+        return pos.long_get_pos(self.dev)
+
+    def long_set_pos(self, value):
+        pos.long_set_pos(value, self.dev)
+
+
