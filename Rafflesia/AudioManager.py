@@ -1,5 +1,7 @@
+from .Audio import busy
 from .Audio import load
 from .Audio import play
+from .Audio import rewind
 from .Audio import stop
 from .Audio import pause
 from .Audio import unpause
@@ -23,6 +25,9 @@ class AudioManager:
     def longplay(self, loops=0, start=0.0, infinityloop=False):
         play.longplay(loops, start, infinityloop, self.dev)
 
+    def longrewind(self):
+        rewind.longrewind(self.dev)
+
     def longstop(self):
         stop.longstop(self.dev)
 
@@ -31,3 +36,6 @@ class AudioManager:
 
     def longunpause(self):
         unpause.longunpause(self.dev)
+
+    def longbusy(self):
+        return busy.longbusy(self.dev)
