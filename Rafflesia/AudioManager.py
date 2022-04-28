@@ -2,6 +2,7 @@ from Rafflesia.Audio import busy
 from Rafflesia.Audio import load
 from Rafflesia.Audio import play
 from Rafflesia.Audio import pos
+from Rafflesia.Audio import queue
 from Rafflesia.Audio import rewind
 from Rafflesia.Audio import stop
 from Rafflesia.Audio import pause
@@ -14,15 +15,14 @@ pygame.mixer.set_num_channels(2048)
 
 class AudioManager:
     def __init__(self, dev=False):
-        self.channelidlist = []
         self.dev = dev
         super(AudioManager, self).__init__()
 
-    def shortplay(self, filepath, channelname):
-        play.shortplay(filepath)
-
     def long_load(self, filepath):
         load.long_load(filepath, self.dev)
+
+    def long_queue(self, filepath):
+        queue.long_queue(filepath, self.dev)
 
     def long_play(self, loops=0, start=0.0, infinityloop=False):
         play.long_play(loops, start, infinityloop, self.dev)
