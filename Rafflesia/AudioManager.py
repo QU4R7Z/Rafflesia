@@ -1,4 +1,5 @@
 from Rafflesia.Audio import busy
+from Rafflesia.Audio import effects
 from Rafflesia.Audio import load
 from Rafflesia.Audio import play
 from Rafflesia.Audio import pos
@@ -53,3 +54,6 @@ class AudioManager:
 
     def long_set_pos(self, value):
         pos.long_set_pos(value, self.dev)
+
+    def long_fadeout(self, value):
+        effects.long_fadeout(value, self.dev)

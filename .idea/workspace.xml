@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e63114-0ab5-4b26-aa20-841c138cabec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/effects.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/busy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/busy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/load.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/pause.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/pause.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/rewind.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/rewind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/stop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Audio/unpause.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Audio/unpause.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/AudioManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/AudioManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rafflesia/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,70 @@
       <recent name="D:\Github\Rafflesia\Rafflesia" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="AudioManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rafflesia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rafflesia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rafflesia/AudioManager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rafflesia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rafflesia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rafflesia/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rafflesia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Rafflesia" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +139,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.AudioManager" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
