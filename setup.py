@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Rafflesia",
-    version="0.0.9",
+    version="0.0.9.1",
     author="QU4R7Z",
     author_email="shio7113@gmail.com",
     description="Rafflesia Framework",

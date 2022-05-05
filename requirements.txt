@@ -1,4 +1,4 @@
 Nuitka==0.7.7
 pygame==2.1.2
-Rafflesia==0.0.8
+Rafflesia==0.0.9.1
 zstandard==0.17.0

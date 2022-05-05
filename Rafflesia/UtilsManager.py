@@ -8,7 +8,7 @@ class UtilsManager:
         super(UtilsManager, self).__init__()
 
     def build(self, main, company_name="QU4R7Z", product_version=1.0, dirname="Rafflesia-deploy", withconsole=True):
-        build.build(main, company_name, product_version, dirname, withconsole, self.dev)
+        build.package(main, company_name, product_version, dirname, withconsole, self.dev)
 
     def requirements_txt(self):
         requirements_txt.run(self.dev)

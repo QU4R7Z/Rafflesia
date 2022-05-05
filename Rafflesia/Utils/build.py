@@ -2,7 +2,7 @@ import subprocess
 import platform
 
 
-def build(main, company_name, product_version, deploy_dir_name, withconsole, dev):
+def package(main, company_name, product_version, deploy_dir_name, withconsole, dev):
     try:
         system = platform.system()
         if dev:
