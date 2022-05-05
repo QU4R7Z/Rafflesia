@@ -1,4 +1,6 @@
+glfw==2.5.3
 Nuitka==0.7.7
 pygame==2.1.2
+PyOpenGL==3.1.6
 Rafflesia==0.0.9.1
 zstandard==0.17.0
