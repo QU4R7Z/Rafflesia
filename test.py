@@ -1,12 +1,12 @@
 import time
-import asyncio
 
 from Rafflesia import AudioManager
 from Rafflesia import GraphicsManager
 import os
 
-k = GraphicsManager.GraphicsManager(dev=True)
-k.createwindow()
+window = GraphicsManager.GraphicsManager()
+window.createwindow(1280, 720)
+window.draw_triangle()
 
 print(os.path.abspath("../lapetus.mp3"))
 Rafflesia_audio = AudioManager(dev=True)
@@ -27,6 +27,3 @@ time.sleep(3)
 Rafflesia_audio.long_rewind()
 Rafflesia_audio.long_play()
 Rafflesia_audio.long_set_pos(130)
-
-
-

@@ -1,9 +1,15 @@
 import glfw
+from OpenGL.GL import *
 
 
-def create_window(x, y, window_title, dev):
+def create_window(x, y, window_title, fullscreen, drawer, dev):
     try:
-        window = glfw.create_window(x, y, window_title, None, None)
+        if fullscreen:
+            monitor = glfw.get_primary_monitor()
+            vidmode = glfw.get_video_mode(monitor)
+            window = glfw.create_window(vidmode.size.width, vidmode.size.height, window_title, monitor, None)
+        else:
+            window = glfw.create_window(x, y, window_title, None, None)
         if dev:
             print(f"{window_title} window 생성")
 
@@ -14,6 +20,8 @@ def create_window(x, y, window_title, dev):
 
         while not glfw.window_should_close(window):
             glfw.poll_events()
+            for i in drawer:
+                glDrawArrays(i)
             glfw.swap_buffers(window)
 
         glfw.terminate()

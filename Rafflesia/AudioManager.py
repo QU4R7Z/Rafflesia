@@ -11,12 +11,12 @@ from Rafflesia.Audio import unpause
 from Rafflesia.Audio import volume
 import pygame
 
-pygame.mixer.set_num_channels(2048)
-
 
 class AudioManager:
     def __init__(self, dev=False):
         self.dev = dev
+        pygame.init()
+        pygame.mixer.set_num_channels(2048)
         super(AudioManager, self).__init__()
 
     def long_load(self, filepath):
