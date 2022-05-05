@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e63114-0ab5-4b26-aa20-841c138cabec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rafflesia/Audio/effects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/Utils/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/Utils/requirements_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rafflesia/UtilsManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Rafflesia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rafflesia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/AudioManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/AudioManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +57,7 @@
       <recent name="D:\Github\Rafflesia\Rafflesia" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.aaa">
     <configuration name="AudioManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rafflesia" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rafflesia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,12 +128,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Github\Rafflesia\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rafflesia" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Github\Rafflesia\test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,9 +142,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.aaa" />
+      <item itemvalue="Python.AudioManager" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.aaa" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.AudioManager" />
       </list>

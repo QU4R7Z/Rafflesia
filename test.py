@@ -1,6 +1,7 @@
 import time
 
 from Rafflesia import AudioManager
+from Rafflesia import UtilsManager
 import os
 
 print(os.path.abspath("../lapetus.mp3"))
@@ -22,4 +23,9 @@ time.sleep(3)
 Rafflesia_audio.long_rewind()
 Rafflesia_audio.long_play()
 Rafflesia_audio.long_set_pos(130)
-time.sleep(30)
+time.sleep(10)
+
+print("asdasd")
+input()
+
+
