@@ -12,10 +12,6 @@ class GraphicsManager:
         window = windows.create_window(x, y, window_title, fullscreen, self.dev)
         return window
 
-        """w = threading.Thread(target=windows.create_window, name="worker_0",
-                             args=(x, y, window_title, fullscreen,self.dev))
-        w.start()"""
-
     def make_context_current(self, window):
         windows.make_context_current(window, self.dev)
 
