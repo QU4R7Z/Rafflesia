@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="63e63114-0ab5-4b26-aa20-841c138cabec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Graphics/td/Shapes/triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Graphics/td/Shapes/triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/Graphics/td/Windows/windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Graphics/td/Windows/windows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rafflesia/GraphicsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/GraphicsManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rafflesia/Utils/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rafflesia/Utils/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaa.py" beforeDir="false" afterPath="$PROJECT_DIR$/aaa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

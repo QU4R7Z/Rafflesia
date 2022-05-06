@@ -10,12 +10,18 @@ def package(main, company_name, product_version, deploy_dir_name, withconsole, d
         if system == 'Windows':
             if withconsole:
                 command = f"python -m nuitka --mingw64 --show-modules --follow-imports " \
-                          f"--windows-company-name={company_name} " \
-                          f"--windows-product-version={product_version} --output-dir={deploy_dir_name} {main}"
+                          f"--windows-company-name={company_name} --windows-product-version={product_version} " \
+                          f"--output-dir={deploy_dir_name} " \
+                          f"--include-module=OpenGL.platform " \
+                          f"--include-module=OpenGL.arrays " \
+                          f"{main}"
             else:
-                command = f"python -m nuitka --mingw64 --show-modules --follow-imports " \
-                          f"--windows-disable-console --windows-company-name={company_name} " \
-                          f"--windows-product-version={product_version} --output-dir={deploy_dir_name} {main}"
+                command = f"python -m nuitka --mingw64 --show-modules --follow-imports --windows-disable-console " \
+                          f"--windows-company-name={company_name} --windows-product-version={product_version} " \
+                          f"--output-dir={deploy_dir_name} " \
+                          f"--include-module=OpenGL.platform " \
+                          f"--include-module=OpenGL.arrays " \
+                          f"{main}"
             if dev:
                 print(command)
             subprocess.run(command.split(' '), shell=True)

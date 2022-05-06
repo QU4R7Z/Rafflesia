@@ -1,3 +1,4 @@
+colorama==0.4.4
 glfw==2.5.3
 Nuitka==0.7.7
 numpy==1.22.3
@@ -5,4 +6,5 @@ pygame==2.1.2
 PyOpenGL==3.1.6
 PyOpenGL-accelerate==3.1.6
 Rafflesia==0.0.9.1
+tqdm==4.64.0
 zstandard==0.17.0
