@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Rafflesia",
-    version="0.0.9.2",
+    version="0.0.9.8",
     author="QU4R7Z",
     author_email="shio7113@gmail.com",
     description="Rafflesia Framework",
@@ -19,4 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    package_data={'Rafflesia': ['Resources/*.ico']},
 )
