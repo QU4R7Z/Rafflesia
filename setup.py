@@ -3,6 +3,10 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+requirements = []
+with open('requirements.txt') as f:
+  requirements = f.read().splitlines()
+
 setuptools.setup(
     name="Rafflesia",
     version="0.0.9.8",
@@ -18,6 +22,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=requirements,
     python_requires='>=3.6',
     package_data={'Rafflesia': ['Resources/*.ico']},
 )

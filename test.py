@@ -8,8 +8,8 @@ from OpenGL.GL import *
 import OpenGL.GL.shaders
 
 Rafflesia_audio = AudioManager(dev=True)
-Rafflesia_audio.long_load(os.path.abspath("../lapetus.mp3"))
-Rafflesia_audio.long_play(infinityloop=False)
+Rafflesia_audio.long_load(os.path.abspath("../heathens_shi3do_edit.mp3"))
+Rafflesia_audio.long_play(infinityloop=True)
 
 Graphics = GraphicsManager(dev=True)
 testwindow = Graphics.create_window(1280, 720)
